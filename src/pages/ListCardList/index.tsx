@@ -40,13 +40,6 @@ class ListCardList extends Component<
   ListCardListState
 > {
 
-  constructor(props: any) {
-    super(props);
-    this.state = {
-      list: true
-    }
-  }
-
   componentDidMount() {
     const { dispatch } = this.props;
     dispatch({
