@@ -35,13 +35,11 @@ interface ListCardListState {
     loading: loading.models.list,
   }),
 )
-class ListCardList extends Component<
-  ListCardListProps,
-  ListCardListState
-> {
-
+class ListCardList extends Component<ListCardListProps, ListCardListState> {
   componentDidMount() {
     const { dispatch } = this.props;
+    const aaa = 333;
+    if (aaa == 333) console.log(333);
     dispatch({
       type: 'listCardList/fetch',
       payload: {
