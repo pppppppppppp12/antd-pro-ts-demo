@@ -39,7 +39,7 @@ class ListCardList extends Component<ListCardListProps, ListCardListState> {
   componentDidMount() {
     const { dispatch } = this.props;
     const aaa = 333;
-    if (aaa == 333) console.log(333);
+    if (aaa == 3333) console.log(333);
     dispatch({
       type: 'listCardList/fetch',
       payload: {
